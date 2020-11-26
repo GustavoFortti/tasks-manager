@@ -1,4 +1,4 @@
-import { React, IconContext } from 'react';
+import React from 'react';
 import { Main, Options, More } from './styles'
 import { AiOutlineDown, AiFillPlusCircle } from "react-icons/ai";
 

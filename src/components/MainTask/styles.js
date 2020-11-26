@@ -17,7 +17,7 @@ export const Main = styled.div`
 
     /* #524263 */
 
-    border: 1px solid var(--border);
+    /* border: 1px solid var(--border); */
 
 
 

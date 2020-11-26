@@ -12,7 +12,7 @@ export const List = styled.div`
 
     color: white;
 
-    border: 1px solid #524263;
+    border: 1px solid var(--border);
 
     ::-webkit-scrollbar {
         display: none;
@@ -20,7 +20,7 @@ export const List = styled.div`
 
 `;
 
-export const People = styled.div`
+export const Member = styled.div`
     width: 100%;
     height: 50px;
 

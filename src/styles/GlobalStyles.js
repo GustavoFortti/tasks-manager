@@ -27,8 +27,8 @@ export default createGlobalStyle`
     :root {
         --primary: #191622;
         --secondary: #221D30;
-        --green: #E34153;
-        --red: #33FB88;
+        --green: #33FB88;
+        --red: #E34153;
         --yellow: #F6AE73;
         --blud: #5A9CAA;
         --orange: #B2B675;

@@ -25,7 +25,7 @@ export const CycleButton = styled.div`
     font-size: 25px;
     color: white;
 
-    border: 1px solid var(--border);
+    border: 0.5px solid var(--border);
     border-radius: 7px;
     cursor: pointer;
 

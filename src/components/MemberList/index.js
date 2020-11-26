@@ -1,8 +1,8 @@
 import React from 'react';
-import { List, People, Info, Add, Separator } from './styles'
+import { List, Member, Info, Add, Separator } from './styles'
 import { AiOutlineDown, AiOutlinePlus } from "react-icons/ai";
 
-function PeopleList() {
+function MemberList() {
     return (
         <List>
             <Add>
@@ -16,7 +16,7 @@ function PeopleList() {
                 </div>
             </Add>
             <Separator />
-            <People>
+            <Member>
                 <Info>
                     <p>1</p>
                     <p>Gustavo Dutra</p>
@@ -24,8 +24,8 @@ function PeopleList() {
                 <div className='icon'>
                     <AiOutlineDown />
                 </div>
-            </People>
-            <People>
+            </Member>
+            <Member>
                 <Info>
                     <p>1</p>
                     <p>Camila Sobrenome</p>
@@ -33,8 +33,8 @@ function PeopleList() {
                 <div className='icon'>
                     <AiOutlineDown />
                 </div>
-            </People>
-            <People>
+            </Member>
+            <Member>
                 <Info>
                     <p>1</p>
                     <p>Disgo Sobrenome</p>
@@ -42,8 +42,8 @@ function PeopleList() {
                 <div className='icon'>
                     <AiOutlineDown />
                 </div>
-            </People>
-            <People>
+            </Member>
+            <Member>
                 <Info>
                     <p>3</p>
                     <p>Bruno Sobrenome</p>
@@ -51,9 +51,9 @@ function PeopleList() {
                 <div className='icon'>
                     <AiOutlineDown />
                 </div>
-            </People>
+            </Member>
         </List>
     )
 }
 
-export default PeopleList;
+export default MemberList;

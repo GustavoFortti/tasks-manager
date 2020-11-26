@@ -3,8 +3,9 @@ import React from 'react';
 import { Grid } from './styles'
 import Cycle from '../Cycle/index'
 import MainTask from '../MainTask/index'
-import PeopleList from '../PeopleList/index'
+import MemberList from '../MemberList/index'
 import TasksList from '../TasksList/index'
+import RestTime from '../RestTime/index'
 
 function Leyout() {
     return(
@@ -15,11 +16,17 @@ function Leyout() {
             <Cycle>
             </Cycle>
 
-            <PeopleList>
-            </PeopleList>
+            <div className='void'>
+            </div>
+
+            <MemberList>
+            </MemberList>
 
             <TasksList>
             </TasksList>
+
+            <RestTime>
+            </RestTime>
         </Grid>
     )
 }
