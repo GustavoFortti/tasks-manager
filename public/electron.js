@@ -10,8 +10,12 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1300,
+    height: 800,
+    // titleBarStyle: 'hidden',
+    // fullscreenWindowTitle: 'hidden',
+    // frame: false,
+    // frame: false,
     webPreferences: {
       nodeIntegration: true,
     },
@@ -21,9 +25,9 @@ function createWindow() {
     isDev ? 'http://localhost:3000' : `file://${path.resolve(__dirname, '..', 'build', 'index.html')}`,
   );
 
-  if (isDev) {
-    mainWindow.webContents.openDevTools();
-  }
+  // if (isDev) {
+  //   mainWindow.webContents.openDevTools();
+  // }
 
   mainWindow.on('closed', () => {
     mainWindow = null;
