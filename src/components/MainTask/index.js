@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Main, Options, More } from './styles'
 import { AiOutlineDown, AiFillPlusCircle } from "react-icons/ai";
+import NewManager from '../NewManager/index'
 
 function MainTask() {
-
-
+    const [ windown, setWindown ] = useState(false);
+    
     return (
         <Main>
             <Options>
@@ -14,8 +15,10 @@ function MainTask() {
                 </div>
             </Options>
             <More>
-                <AiFillPlusCircle />
+                <AiFillPlusCircle onClick={(event) => setWindown(true)} />
+                { windown == true ?  <NewManager /> :  <></> }
             </More>
+
         </Main>
     )
 }

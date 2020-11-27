@@ -31,13 +31,17 @@ export const Left = styled.div`
     flex-direction: row;
 
     height: 75px;
-    width: 55%;
+    width: 65%;
     /* margin-top: 12px;
     margin-left: 12px; */
 
     align-items: center;
     /* box-shadow: 1px 1px var(--border); */
     background-color: var(--primary);
+
+    @media only screen and (max-width: 1735px) {
+        width: 97%;
+    }
 
 `;
 
@@ -60,6 +64,10 @@ export const Loading = styled.div`
 
         /* background-color: var(--border); */
         cursor: pointer;
+    }
+
+    @media only screen and (max-width: 1335px) {
+        display: none;  
     }
 `;
 
@@ -105,7 +113,7 @@ export const Scope = styled.div`
     flex-direction: column;
 
     height: 75px;
-    width: 43%;
+    width: 33%;
 
     /* margin-top: 12px; */
     padding-left: 30px;
@@ -121,14 +129,26 @@ export const Scope = styled.div`
     p {
         font-size: 15px;
     }
+
+
+    @media only screen and (max-width: 1735px) {
+        /* width: 27%; */
+        display: none;
+    }
 `;
 
 export const Entity = styled.p`
-    height: 25px;
+    display: flex;
+    flex-direction: row;
 
-    padding-top: 3px;
+    height: 25px;
+    font-size: 18px;
+
+    align-items: center;
+
+
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 10px;
 
     border-radius: 15px;
     margin-left: 7px;
@@ -136,8 +156,26 @@ export const Entity = styled.p`
 
     background-color: var(--secondary);
 
+
+
+    p {
+        padding-right: 8px;
+        padding-left: 8px;
+        font-size: 16px;
+    }
+
+    div {
+        display: none;
+        /* visibility: hidden; */
+    }
+
     &:hover {   
         cursor: pointer;
         background-color: var(--border);
+
+        div {
+            display: flex;
+            /* visibility: visible; */
+        }
     }
 `;

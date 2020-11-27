@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tasks, Task, Left, Separator, Scope, TaskName, Members, Loading, Middle, Entity } from './styles'
-import { AiOutlinePlayCircle, AiFillPlusCircle, AiFillCheckSquare } from "react-icons/ai";
+import { AiOutlinePlayCircle, AiOutlineClose, AiFillCheckSquare } from "react-icons/ai";
 
 function TasksList() {
     return (
@@ -17,7 +17,30 @@ function TasksList() {
                             <p>Task Name</p>
                         </TaskName>
                         <Members>
-                            <Entity>Gustavdo Duta</Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
                         </Members>
                     </Middle>
                 </Left>
@@ -25,8 +48,18 @@ function TasksList() {
                 <Scope>
                     <p>Scope</p>
                     <div>
-                        <Entity>até 4 pessoas</Entity>
-                        <Entity>3 - 3 or 2 - 3</Entity>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
                     </div>
                 </Scope>
             </Task>
@@ -42,10 +75,30 @@ function TasksList() {
                             <p>Task Name</p>
                         </TaskName>
                         <Members>
-                            <Entity>Gustavo Dutra</Entity>
-                            <Entity>Gustavo D</Entity>
-                            <Entity>Gust Dutra</Entity>
-                            <Entity>Gustavdo Duta</Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
                         </Members>
                     </Middle>
                 </Left>
@@ -53,8 +106,18 @@ function TasksList() {
                 <Scope>
                     <p>Scope</p>
                     <div>
-                        <Entity>até 4 pessoas</Entity>
-                        <Entity>3 - 3 or 2 - 3</Entity>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
                     </div>
                 </Scope>
             </Task>
@@ -70,10 +133,30 @@ function TasksList() {
                             <p>Task Name</p>
                         </TaskName>
                         <Members>
-                            <Entity>Gustavo Dutra</Entity>
-                            <Entity>Gustavo D</Entity>
-                            <Entity>Gust Dutra</Entity>
-                            <Entity>Gustavdo Duta</Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
                         </Members>
                     </Middle>
                 </Left>
@@ -81,7 +164,18 @@ function TasksList() {
                 <Scope>
                     <p>Scope</p>
                     <div>
-                        <Entity>3 - 3 or 2 - 3</Entity>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
                     </div>
                 </Scope>
             </Task>
@@ -97,9 +191,30 @@ function TasksList() {
                             <p>Task Name</p>
                         </TaskName>
                         <Members>
-                            <Entity>Gustavo D</Entity>
-                            <Entity>Gust Dutra</Entity>
-                            <Entity>Gustavdo Duta</Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
                         </Members>
                     </Middle>
                 </Left>
@@ -107,8 +222,18 @@ function TasksList() {
                 <Scope>
                     <p>Scope</p>
                     <div>
-                        <Entity>até 4 pessoas</Entity>
-                        <Entity>3 - 3 or 2 - 3</Entity>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
                     </div>
                 </Scope>
             </Task>
@@ -124,8 +249,30 @@ function TasksList() {
                             <p>Task Name</p>
                         </TaskName>
                         <Members>
-                            <Entity>Gustavo Dutra</Entity>
-                            <Entity>Gustavo D</Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
                         </Members>
                     </Middle>
                 </Left>
@@ -133,8 +280,18 @@ function TasksList() {
                 <Scope>
                     <p>Scope</p>
                     <div>
-                        <Entity>até 4 pessoas</Entity>
-                        <Entity>3 - 3 or 2 - 3</Entity>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
                     </div>
                 </Scope>
             </Task>
@@ -150,10 +307,30 @@ function TasksList() {
                             <p>Task Name</p>
                         </TaskName>
                         <Members>
-                            <Entity>Dutra</Entity>
-                            <Entity>Gustavo D</Entity>
-                            <Entity>Gust Dutra</Entity>
-                            <Entity>Gustavdo Duta</Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
                         </Members>
                     </Middle>
                 </Left>
@@ -161,11 +338,428 @@ function TasksList() {
                 <Scope>
                     <p>Scope</p>
                     <div>
-                        <Entity>até 4 pessoas</Entity>
-                        <Entity>3 - 3 or 2 - 3</Entity>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
                     </div>
                 </Scope>
             </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+             <Task>
+                <Left>
+                    <Loading>
+                        <AiOutlinePlayCircle />
+                    </Loading>
+                    <Separator />
+                    <Middle>
+                        <TaskName>
+                            <AiFillCheckSquare />
+                            <p>Task Name</p>
+                        </TaskName>
+                        <Members>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                            <Entity>
+                                <p>Gustavdo Duta</p>
+                                <div>
+                                    <AiOutlineClose />
+                                </div>
+                            </Entity>
+                        </Members>
+                    </Middle>
+                </Left>
+                <Separator />
+                <Scope>
+                    <p>Scope</p>
+                    <div>
+                        <Entity>
+                            <p>até 4 pessoas</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                        <Entity>
+                            <p>3 - 3 or 2 - 3</p>
+                            <div>
+                                <AiOutlineClose />
+                            </div>
+                        </Entity>
+                    </div>
+                </Scope>
+            </Task>
+         
         </Tasks>
     )
 }
